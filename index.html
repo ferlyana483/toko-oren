@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Oren</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Oren</h1>
+    </header>
+    <main>
+        <section class="produk">
+            <h2>Daftar Produk</h2>
+            <div class="produk-list">
+                <div class="produk-item">
+                    <img src="c:\Users\ASUS\Pictures\WhatsApp Image 2024-11-19 at 11.13.39_08b12146.jpg" alt="Beras 5kg">
+                    <h3>Beras 5kg</h3>
+                    <p>Rp60,000</p>
+                    <button onclick="tambahKeKeranjang('Beras 5kg', 60000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="produk-item">
+                    <img src="c:\Users\ASUS\Pictures\WhatsApp Image 2024-11-19 at 11.16.31_352c4c20.jpg" alt="Minyak Goreng 1L">
+                    <h3>Minyak Goreng 1L</h3>
+                    <p>Rp20,000</p>
+                    <button onclick="tambahKeKeranjang('Minyak Goreng 1L', 20000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="produk-item">
+                    <img src="C:\Users\ASUS\Pictures\WhatsApp Image 2024-11-19 at 11.13.40_746692cf.jpg" alt="Gula Pasir 1kg">
+                    <h3>Gula Pasir 1kg</h3>
+                    <p>Rp15,000</p>
+                    <button onclick="tambahKeKeranjang('Gula Pasir 1kg', 15000)">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+        <section class="keranjang">
+            <h2>Keranjang Belanja</h2>
+            <div id="keranjang">
+                <p>Keranjang belanja kosong.</p>
+            </div>
+            <button id="checkout-btn" onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Toko Oren. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

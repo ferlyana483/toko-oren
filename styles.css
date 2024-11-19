@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #f7941d;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #f7941d;
+}
+
+.produk-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produk-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produk-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.produk-item button {
+    background-color: #f7941d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.produk-item button:hover {
+    background-color: #e68317;
+}
+
+.keranjang {
+    margin-top: 20px;
+}
+
+#keranjang {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 50px;
+}
+
+#checkout-btn {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#checkout-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7941d;
+    color: white;
+    margin-top: 20px;
+}
